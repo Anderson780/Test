@@ -1,0 +1,84 @@
+body{
+    background-color: #343434;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;    
+  }
+  
+  #logo, #vulcan, #exit{
+    color: red;
+  }
+  
+  #header{
+    background: #565656;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: -8px -8px 0 -8px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 4px; 
+  }
+  
+  #logo{
+    margin-left: 10px ;
+    font-size: 40px;
+  }
+  
+  #vulcan{
+    font-size: 40px;
+  }
+  
+  #exit{
+    margin-right: 10px ;
+    font-size: 50px;
+  }
+
+  #user-info{
+    display: inline-block;
+    width: 200px;
+    height: 565px;
+    margin: 0 -8px;
+    background-color: white;
+    
+    border-bottom: 2px solid black;
+  }
+
+  #user{
+    padding: 4px;
+    text-align: center;
+    background-color: #565656;
+    height: fit-content;
+    color: white;
+  }
+
+  b{
+    position: relative;
+    bottom: 15px;
+  }
+
+  li{
+    padding: 16px;
+    text-align: center; 
+  }
+
+  i.gg-camera, i.gg-clipboard, i.gg-file{
+    top: 20px;
+    color:#565656;
+  }
+  
+
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 12px;  
+  }
+   
+  #user-func{
+    padding: 0;
+    margin: 0;
+  }

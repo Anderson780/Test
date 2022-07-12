@@ -1,0 +1,157 @@
+body{
+    background-color: #343434;
+    font-family: 'Nunito', sans-serif;    
+  }
+  
+  #logo, #vulcan, #exit, .box-acess{
+    color: red;
+  }
+  
+  #header{
+    background: #565656;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: -8px -8px 0 -8px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 4px; 
+  }
+  
+  #logo{
+    margin-left: 10px ;
+    font-size: 40px;
+  }
+  
+  #vulcan{
+    font-size: 40px;
+  }
+  
+  #exit{
+    margin-right: 10px ;
+    font-size: 50px;
+  }
+  
+  #acess{
+    position: relative;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255); 
+    border-left: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    width: 400px;
+    height: 280px;
+    margin: 150px;
+    left: 320px;   
+  }
+  
+  .box-acess{
+    position: relative;
+    z-index: 2;
+    left: 135px;
+    top: -25px;
+    font-size: 25px;
+    display: inline;
+    width: 90px;
+  }
+    
+  #acess::after, #acess::before {
+    content:"";
+    z-index: 1;
+    position:absolute;
+  }
+  
+  #acess::after {
+    border-top: 2px solid white;
+    right: 0;
+    top: 0;
+    width: 30%;
+  }
+    
+  #acess::before { 
+    border-top:2px solid white;
+    left: 0;
+    top: 0;
+    width: 30%;
+  }
+  
+  #login{
+    width: 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    bottom: 20px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+  }
+  
+  #new-password{
+    width: 400px;
+    height: 50px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    bottom: 40px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #username, #new-psw, #rep-new-psw{
+    padding-bottom: 8px;
+  }
+  
+  input[type=text], input[type=password] {
+    padding: 8px;
+    margin: 2px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: large;
+    width: calc(100% - 50px);
+    height: 50px;
+  }
+  
+  #return {
+    text-decoration: none;
+    bottom: 22px;
+    right: 14px;
+    padding: 14px 6px;
+    width: 150px;
+  }
+  
+  #sign-in {
+    bottom: 22px;
+    left: 18px;
+    padding: 14px 20px;
+    width: 150px;
+    font-family: 'Nunito', sans-serif;  ;
+  }
+  
+  #return:hover, #sign-in:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  #return, #sign-in{
+    background-color: red; 
+    color: white;
+    border: none; 
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+  }
+
+  a{
+    text-decoration: none;
+    color: red;
+  }
